@@ -11,8 +11,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestBase {
 	
+	public static int rnum=0;
 	public static WebDriver driver;
 	static Properties prop;
+	
 	
 	public TestBase() {
 		// TODO Auto-generated constructor stub
@@ -41,8 +43,8 @@ public class TestBase {
 		else {
 			System.out.println("Failed");
 		}
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.manage().window().maximize();;
 		driver.get(prop.getProperty("url"));
 	

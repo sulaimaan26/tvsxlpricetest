@@ -1,5 +1,6 @@
 package com.testprice;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -16,6 +17,7 @@ import com.testbase.HDFpricecheck.TestBase;
 public class TestPriceComfort extends TestBase {
 
 	
+	
 	TestBase test;
 	PageElements pageelements;
 	public TestPriceComfort() {
@@ -30,21 +32,25 @@ public class TestPriceComfort extends TestBase {
 		//System.out.println("Alert.......Started");
 	}
 	
+	
+	
+	@Test(dataProvider="testdata")
+	public void test001(String state,String price,int rownum) {
+		
+			pageelements=new PageElements();
+			String exp=pageelements.getprice(state)+".0";
+			String act=price;
+			System.out.println(exp+act);
+			rnum=rownum;
+			Assert.assertEquals(act, exp);
+			
+		
+		//pageelements.getprice(state);
+	}
 	@DataProvider
 	public Iterator<Object[]> testdata() {
 		ArrayList<Object[]> testdata=Excel_inputs.getdatafrmexcel();
 		return testdata.iterator();
-	}
-	
-	@Test(dataProvider="testdata")
-	public void test001(String state,String price) {
-		pageelements=new PageElements();
-		//pageelements.getprice(state);
-		String exp=pageelements.getprice(state)+".0";
-		String act=price;
-		System.out.println(exp+act);
-		Assert.assertEquals(act, exp);
-		
 	}
 	
 	
