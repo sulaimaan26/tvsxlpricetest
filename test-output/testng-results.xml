@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="2" ignored="0" total="33" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="Check TVS pricelist" duration-ms="160870" started-at="2019-06-10T04:29:58Z" finished-at="2019-06-10T04:32:39Z">
+  <suite name="Check TVS pricelist" duration-ms="40515" started-at="2019-06-10T08:38:05Z" finished-at="2019-06-10T08:38:46Z">
     <groups>
     </groups>
-    <test name="TVSXL verify product price" duration-ms="160870" started-at="2019-06-10T04:29:58Z" finished-at="2019-06-10T04:32:39Z">
+    <test name="TVSXL verify product price" duration-ms="40515" started-at="2019-06-10T08:38:05Z" finished-at="2019-06-10T08:38:46Z">
       <class name="com.testprice.TestPriceComfort">
-        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="browsersetup" is-config="true" duration-ms="7524" started-at="2019-06-10T04:29:58Z" finished-at="2019-06-10T04:30:06Z">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="browsersetup" is-config="true" duration-ms="9440" started-at="2019-06-10T08:38:05Z" finished-at="2019-06-10T08:38:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsersetup -->
-        <test-method status="FAIL" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="51674" started-at="2019-06-10T04:30:07Z" data-provider="testdata" finished-at="2019-06-10T04:30:58Z">
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="331" started-at="2019-06-10T08:38:16Z" data-provider="testdata" finished-at="2019-06-10T08:38:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Tamil Nadu]]>
               </value>
             </param>
             <param index="1">
@@ -29,55 +29,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [.0] but found [30990.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [.0] but found [30990.0]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testprice.TestPriceComfort.test001(TestPriceComfort.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test001 -->
-        <test-method status="FAIL" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="50070" started-at="2019-06-10T04:30:59Z" data-provider="testdata" finished-at="2019-06-10T04:31:49Z">
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="242" started-at="2019-06-10T08:38:16Z" data-provider="testdata" finished-at="2019-06-10T08:38:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Karnataka]]>
               </value>
             </param>
             <param index="1">
@@ -91,55 +50,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [.0] but found [30990.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [.0] but found [30990.0]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testprice.TestPriceComfort.test001(TestPriceComfort.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test001 -->
-        <test-method status="FAIL" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="50119" started-at="2019-06-10T04:31:49Z" data-provider="testdata" finished-at="2019-06-10T04:32:39Z">
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="267" started-at="2019-06-10T08:38:16Z" data-provider="testdata" finished-at="2019-06-10T08:38:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Goa]]>
               </value>
             </param>
             <param index="1">
@@ -153,12 +71,159 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="258" started-at="2019-06-10T08:38:17Z" data-provider="testdata" finished-at="2019-06-10T08:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33549.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="288" started-at="2019-06-10T08:38:17Z" data-provider="testdata" finished-at="2019-06-10T08:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="289" started-at="2019-06-10T08:38:17Z" data-provider="testdata" finished-at="2019-06-10T08:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andaman Nicobar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29715.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="242" started-at="2019-06-10T08:38:18Z" data-provider="testdata" finished-at="2019-06-10T08:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andhra Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31299.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="268" started-at="2019-06-10T08:38:18Z" data-provider="testdata" finished-at="2019-06-10T08:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Telangana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31299.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="246" started-at="2019-06-10T08:38:18Z" data-provider="testdata" finished-at="2019-06-10T08:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gujarat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="FAIL" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="10080" started-at="2019-06-10T08:38:19Z" data-provider="testdata" finished-at="2019-06-10T08:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Silvasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [.0] but found [31899.0]]]>
+              <![CDATA[expected [.0] but found [29990.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [.0] but found [31899.0]
+              <![CDATA[java.lang.AssertionError: expected [.0] but found [29990.0]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -197,7 +262,531 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="teardown" is-config="true" duration-ms="81" started-at="2019-06-10T04:32:39Z" finished-at="2019-06-10T04:32:39Z">
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="289" started-at="2019-06-10T08:38:29Z" data-provider="testdata" finished-at="2019-06-10T08:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="253" started-at="2019-06-10T08:38:29Z" data-provider="testdata" finished-at="2019-06-10T08:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajasthan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="344" started-at="2019-06-10T08:38:29Z" data-provider="testdata" finished-at="2019-06-10T08:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="263" started-at="2019-06-10T08:38:30Z" data-provider="testdata" finished-at="2019-06-10T08:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="345" started-at="2019-06-10T08:38:30Z" data-provider="testdata" finished-at="2019-06-10T08:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="FAIL" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="10107" started-at="2019-06-10T08:38:30Z" data-provider="testdata" finished-at="2019-06-10T08:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uttarkhand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [.0] but found [29990.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [.0] but found [29990.0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.testprice.TestPriceComfort.test001(TestPriceComfort.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="302" started-at="2019-06-10T08:38:41Z" data-provider="testdata" finished-at="2019-06-10T08:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="302" started-at="2019-06-10T08:38:41Z" data-provider="testdata" finished-at="2019-06-10T08:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jammu & Kashmir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="271" started-at="2019-06-10T08:38:41Z" data-provider="testdata" finished-at="2019-06-10T08:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandigarh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="289" started-at="2019-06-10T08:38:42Z" data-provider="testdata" finished-at="2019-06-10T08:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himachal Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="233" started-at="2019-06-10T08:38:42Z" data-provider="testdata" finished-at="2019-06-10T08:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chattisgarh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="271" started-at="2019-06-10T08:38:42Z" data-provider="testdata" finished-at="2019-06-10T08:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhya Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="257" started-at="2019-06-10T08:38:42Z" data-provider="testdata" finished-at="2019-06-10T08:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[West Bengal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="252" started-at="2019-06-10T08:38:43Z" data-provider="testdata" finished-at="2019-06-10T08:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bihar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="256" started-at="2019-06-10T08:38:43Z" data-provider="testdata" finished-at="2019-06-10T08:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jharkhand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="383" started-at="2019-06-10T08:38:43Z" data-provider="testdata" finished-at="2019-06-10T08:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Odisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="254" started-at="2019-06-10T08:38:44Z" data-provider="testdata" finished-at="2019-06-10T08:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Assam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="259" started-at="2019-06-10T08:38:44Z" data-provider="testdata" finished-at="2019-06-10T08:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mizoram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="263" started-at="2019-06-10T08:38:44Z" data-provider="testdata" finished-at="2019-06-10T08:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tripura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="297" started-at="2019-06-10T08:38:45Z" data-provider="testdata" finished-at="2019-06-10T08:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arunachal Pradesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="283" started-at="2019-06-10T08:38:45Z" data-provider="testdata" finished-at="2019-06-10T08:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nagaland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="273" started-at="2019-06-10T08:38:45Z" data-provider="testdata" finished-at="2019-06-10T08:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manipur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="test001(java.lang.String, java.lang.String, int)[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="test001" duration-ms="282" started-at="2019-06-10T08:38:45Z" data-provider="testdata" finished-at="2019-06-10T08:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meghalaya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29990.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testprice.TestPriceComfort@53b32d7]" name="teardown" is-config="true" duration-ms="75" started-at="2019-06-10T08:38:46Z" finished-at="2019-06-10T08:38:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -77,13 +77,15 @@ public class PageElements extends TestBase {
 	public String getprice(String inputstate) {
 		String price=new String();
 		try{
+			//System.out.println(inputstate);
 			Select state=new Select(selectstate);
 			state.selectByVisibleText(inputstate);
-			System.out.println("selectedstate----------->"+inputstate);
+			//System.out.println("selectedstate----------->"+inputstate);
 			price=xlcomfortproductprice.getText().replaceAll("[^0-9]", "");
-			System.out.print("and extraceedprice----------->"+price);
+			//System.out.print("and extraceedprice----------->"+price);
 		}catch(NoSuchElementException exception) {
 			System.out.println("oops!!!!!State not found");
+			System.out.println("statenotfound----------->"+inputstate);
 		}
 		return price;
 		

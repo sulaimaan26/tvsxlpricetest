@@ -36,7 +36,7 @@ public class TestPriceComfort extends TestBase {
 	
 	@Test(dataProvider="testdata")
 	public void test001(String state,String price,int rownum) {
-		
+			
 			pageelements=new PageElements();
 			String exp=pageelements.getprice(state)+".0";
 			String act=price;

@@ -20,6 +20,15 @@ public class Testngmodlistner extends TestListenerAdapter{
 	  
 	 }
 	 
+	 @Override
+	  public void onTestSuccess(ITestResult tr) {
+		 Xls_Reader reader=new Xls_Reader("/home/epage/eclipse-workspace/HDFpricecheck/src/main/java/com/testdata/Priceupdate.xlsx");
+			reader.setCellData("price", "productonestatus",TestBase.rnum,"passed");
+			System.out.println(TestBase.rnum);
+	  
+	  }
+
+	 
 	
 	 
 	  
