@@ -1,8 +1,10 @@
 package com.testbase.HDFpricecheck;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -21,11 +23,14 @@ public class TestBase {
 	static Properties prop;
 	
 	
+	
 	public TestBase() {
 		// TODO Auto-generated constructor stub
 		FileInputStream file;
+		
 		try {
-			System.out.println(System.getProperty("user.dir"));
+			
+			//System.out.println(System.getProperty("user.dir"));
 			prop=new Properties();
 			file = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
 			prop.load(file);

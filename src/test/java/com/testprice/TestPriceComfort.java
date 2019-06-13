@@ -1,6 +1,8 @@
 package com.testprice;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -57,7 +59,7 @@ public class TestPriceComfort extends TestBase {
 	@AfterTest
 	public void teardown() {
 		driver.quit();
-		//System.out.println("Alert.......Eneded");
+		
 	}
 
 }

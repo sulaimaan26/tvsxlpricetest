@@ -7,7 +7,7 @@ public class UtilTvsxl {
 	}
 	
 	
-	public static long pageloadtimeout=30;
-	public static long implicitlyWait=30;
+	public static long pageloadtimeout=50;
+	public static long implicitlyWait=50;
 
 }

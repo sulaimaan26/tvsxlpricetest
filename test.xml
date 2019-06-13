@@ -12,7 +12,7 @@
 		<classes>
 			
 			<class name="com.testprice.TestPriceComfort"></class>
-
+			
 		</classes>
 	</test>
 </suite>
