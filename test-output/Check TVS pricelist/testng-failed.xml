@@ -9,7 +9,7 @@
     <classes>
       <class name="com.testprice.TestPriceComfort">
         <methods>
-          <include name="test001" invocation-numbers="9 15"/>
+          <include name="test001"/>
           <include name="teardown"/>
           <include name="browsersetup"/>
         </methods>

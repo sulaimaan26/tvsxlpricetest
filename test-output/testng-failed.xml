@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Check TVS pricelist]">
+  <listeners>
+    <listener class-name="com.listener.extentreport.Extentreport"/>
+    <listener class-name="com.listener.extentreport.Testngmodlistner"/>
+  </listeners>
+  <test thread-count="5" name="TVSXL verify product price(failed)">
     <classes>
       <class name="com.testprice.TestPriceComfort">
         <methods>
-          <include name="test001" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32"/>
+          <include name="test001"/>
           <include name="teardown"/>
           <include name="browsersetup"/>
         </methods>
       </class> <!-- com.testprice.TestPriceComfort -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TVSXL verify product price(failed) -->
+</suite> <!-- Failed suite [Check TVS pricelist] -->

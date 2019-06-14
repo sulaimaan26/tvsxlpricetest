@@ -31,7 +31,7 @@ public class TestPriceComfort extends TestBase {
 	public void browsersetup() {
 		test=new TestBase();
 		test.intialization();
-		//System.out.println("Alert.......Started");
+		System.out.println("Alert.......Started");
 	}
 	
 	
