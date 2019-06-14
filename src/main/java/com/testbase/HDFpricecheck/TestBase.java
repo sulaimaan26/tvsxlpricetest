@@ -48,8 +48,9 @@ public class TestBase {
 	
 	public void intialization() {
 		if(prop.getProperty("browser").contentEquals("chrome")) {
+			File file = new File(System.getProperty("user.dir")+"/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
 			driver=new ChromeDriver();
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/drivers/chromedriver");
 		}
 		else {
 			System.out.println("Failed");
