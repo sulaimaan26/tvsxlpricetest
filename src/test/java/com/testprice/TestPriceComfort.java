@@ -47,7 +47,7 @@ public class TestPriceComfort extends TestBase {
 			Assert.assertEquals(act, exp);
 			
 		
-		//pageelements.getprice(state);
+		pageelements.getprice(state);
 	}
 	@DataProvider
 	public Iterator<Object[]> testdata() {

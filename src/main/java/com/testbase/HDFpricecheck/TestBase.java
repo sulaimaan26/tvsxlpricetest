@@ -32,6 +32,7 @@ public class TestBase {
 			
 			//System.out.println(System.getProperty("user.dir"));
 			prop=new Properties();
+			//CheckBrowserOS();
 			file = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
 			prop.load(file);
 			
@@ -45,13 +46,49 @@ public class TestBase {
 	}
 	
 	
+		static String OSDetector() {
+		String os = System.getProperty("os.name").toLowerCase();
+		System.out.println(os);
+			
+			if (os.contains("win")) {
+				return "Windows";
+			} else if (os.contains("nux") || os.contains("nix")) {
+				return "Linux";
+			}else if (os.contains("mac")) {
+				return "Mac";
+			}else if (os.contains("|sunos")) {
+				return "Solaris";
+			}else {
+				return "Other";
+			}
+			
+		}
+	
 	
 	public void intialization() {
-		if(prop.getProperty("browser").contentEquals("chrome")) {
-			File file = new File(System.getProperty("user.dir")+"/drivers/chromedriver");
+		if(prop.getProperty("browser").contentEquals("chrome")&&OSDetector().contentEquals("Linux")) {
+			File file = new File(System.getProperty("user.dir")+"/drivers/Chromedrivers/chromedriver");
 			System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
 			driver=new ChromeDriver();
+			
+		}else if(prop.getProperty("browser").contentEquals("chrome")&&OSDetector().contentEquals("Mac")) {
+			File file = new File(System.getProperty("user.dir")+"/drivers/Chromedrivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
+			driver=new ChromeDriver();
+			
+		}else if(prop.getProperty("browser").contentEquals("chrome")&&OSDetector().contentEquals("Solaris")) {
+			File file = new File(System.getProperty("user.dir")+"/drivers/Chromedrivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
+			driver=new ChromeDriver();
+			
 		}
+		
+		
+		
+		
+		
+		
+		
 		else {
 			System.out.println("Failed");
 		}
